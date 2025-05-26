@@ -98,21 +98,25 @@ h2 {
   cursor: not-allowed;
 }
 .status {
-  margin-top: 59px;
-  margin-bottom: 56px;
-  font-size: 48px;
+  margin-bottom: 16px;
+  font-size: 28px;
   font-weight: 900;
   line-height: normal;
 }
 .reset {
   color: #25e925;
   font-family: "Doto Rounded";
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   background-color: transparent;
   border: none;
+  padding: 12px 36px;
+  margin-bottom: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .reset:hover {
   border-color: #25e925;
@@ -121,6 +125,41 @@ h2 {
   border-left: none;
   border-right: none;
   border-bottom-width: 6px;
+}
+.mode-btn {
+  color: #25e925;
+  font-family: "Doto Rounded";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: border-bottom 0.2s;
+  margin: 0 8px;
+  display: inline-block;
+}
+.mode-btn:hover {
+  border-color: #25e925;
+  border-style: dashed;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 4px;
+}
+.btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  margin-top: 16px;
+}
+.btn-row-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
 }
 .crt {
   padding-top: 72px;
